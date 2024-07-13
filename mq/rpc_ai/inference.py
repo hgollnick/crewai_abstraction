@@ -35,5 +35,5 @@ class RpcClient:
         return self.response
 
 rpc_client = RpcClient()
-response = rpc_client.call("Hello, World!")
+response = rpc_client.call('{"topic": "AI in healthcare"}')
 print("Received:", response.decode())

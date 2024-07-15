@@ -46,7 +46,6 @@ crew = Crew(
 )
 
 ## RabbitMQ
-
 rpc_queue='rpc_queue'
 
 connection = pika.BlockingConnection(pika.ConnectionParameters(
